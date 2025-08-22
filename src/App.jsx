@@ -1,29 +1,17 @@
 import { useState } from 'react'
 import './App.css'
-import DisplayPlayer from './DisplayPlayer.jsx'
+import Player from './Player.jsx'
 
 
 
 
 
 function App() {
-     const Player = [
-        {id: 1, name: 'Maruf', age: 27, profession: 'Developer'},
-        {id: 2, name: 'Rahim', age: 30, profession: 'Designer'},
-        {id: 3, name: 'Karim', age: 25, profession: 'Manager'},
-        {id: 4, name: 'Sakib', age: 28, profession: 'Analyst'},
-        {id: 5, name: 'Rasel', age: 22, profession: 'Tester'}
-    ]
+  
 
   return (
     <>
- 
- {
-        Player.map(player => <DisplayPlayer key={player.id} player = {player}></DisplayPlayer>)
-
- }
-
-        
+    <Player></Player>  
     </>
   )
 }

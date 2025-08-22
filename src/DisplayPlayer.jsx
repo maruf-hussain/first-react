@@ -7,7 +7,7 @@ export default function DisplayPlayer({player}) {
         margin: '10px',
         padding: '10px',
         borderRadius: '10px',
-        backgroundColor: '#fdd5d5ff',
+        backgroundColor: '#e7fdd5ff',
         displayGrid:'grid',
         gridTemplateColumns: 'repeat(2, 1fr)',
         textAlign: 'center',
