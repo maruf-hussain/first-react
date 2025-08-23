@@ -1,6 +1,4 @@
 
-
-import React from 'react'
 import DisplayPlayer from './DisplayPlayer.jsx'
 
 export default function Player() {
@@ -14,7 +12,7 @@ export default function Player() {
   return (
     <>
      {
-      
+
         Player.map(player => <DisplayPlayer key={player} player = {player}></DisplayPlayer>)
 
      }

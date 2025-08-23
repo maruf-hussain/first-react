@@ -1,5 +1,6 @@
-import { useState } from 'react'
+
 import './App.css'
+import Counter from './Counter.jsx'
 import Player from './Player.jsx'
 
 
@@ -11,6 +12,7 @@ function App() {
 
   return (
     <>
+    <Counter></Counter>
     <Player></Player>  
     </>
   )
